@@ -1,0 +1,26 @@
+name: <package-name>
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+  - nvidia
+  - pyg
+dependencies:
+  - python=3.10
+  - pytorch=2.4.1
+  - pip:
+      - ipykernel
+      - ipython
+      - numpy
+      - pandas
+      - natsort
+      - pyvista
+      - matplotlib
+      - imagecodecs
+      - scikit-image
+      - trame
+      - ipywidgets
+      - scikit-learn
+      - einops
+      - timm
+      - tensorboard
