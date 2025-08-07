@@ -1,10 +1,10 @@
 # Project Template
 
-This is a Template Empty code base for quickly setup a structured, easy-to-manage code base for Machin Learning projects in 2025.
+This is a Template Empty code base for quickly setup a structured, easy-to-manage code base for Machine Learning projects in 2025.
 
 Supporting Features:
 
-+ Conda enviroment managements (with some porpular ML package listed in `environment.yml`)
++ Conda environment management (with some popular ML packages listed in `environment.yml`)
 + PEP 8 compliant package setup
 + Git Managements
 
@@ -20,7 +20,7 @@ Supporting Features:
 
 1. Conda env configuration:
 
-```shell
+``` shell
 conda env create -f environment.yml
 ```
 
@@ -30,9 +30,9 @@ conda env create -f environment.yml
 conda env update --name <package-name> --file environment.yml --prune
 ```
 
-+ if you wish to register this kernel to jupyterlab:
++ if you wish to register this kernel to JupyterLab:
 
-```shell
+``` shell
 python -m ipykernel install --user --name="<package-name>" --display-name "<package-name>"
 ```
 
